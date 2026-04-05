@@ -1,0 +1,13 @@
+2026-04-05 01:36:55: Error [ERR_UNSUPPORTED_ESM_URL_SCHEME]: Only URLs with a scheme in: file, data, and node are supported by the default ESM loader. Received protocol 'bun:'
+2026-04-05 01:36:55:     at throwIfUnsupportedURLScheme (node:internal/modules/esm/load:195:11)
+2026-04-05 01:36:55:     at defaultLoadSync (node:internal/modules/esm/load:142:3)
+2026-04-05 01:36:55:     at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:776:12)
+2026-04-05 01:36:55:     at #loadSync (node:internal/modules/esm/loader:796:49)
+2026-04-05 01:36:55:     at ModuleLoader.load (node:internal/modules/esm/loader:762:26)
+2026-04-05 01:36:55:     at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:504:31)
+2026-04-05 01:36:55:     at #getOrCreateModuleJobAfterResolve (node:internal/modules/esm/loader:555:36)
+2026-04-05 01:36:55:     at afterResolve (node:internal/modules/esm/loader:603:52)
+2026-04-05 01:36:55:     at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:609:12)
+2026-04-05 01:36:55:     at ModuleJob.syncLink (node:internal/modules/esm/module_job:162:33) {
+2026-04-05 01:36:55:   code: 'ERR_UNSUPPORTED_ESM_URL_SCHEME'
+2026-04-05 01:36:55: }
