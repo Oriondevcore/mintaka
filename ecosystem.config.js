@@ -1,5 +1,5 @@
 // PM2 Ecosystem — ORION Mintaka/Naledi
-export default {
+module.exports = {
   apps: [
     {
       name: 'mintaka',
